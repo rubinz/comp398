@@ -8,7 +8,7 @@ int main(){
 	string inFile;
 	ifstream fin;
 
-	inFile = "SalariesCleaned.csv";
+	inFile = "data.csv";
 
 	fin.clear();
 	fin.open( inFile.c_str());
@@ -28,23 +28,21 @@ int main(){
 		exit(-1);
 	}
 
-	string line, charecters;
-	short lineNumber = 1;
 
-
-	getline(fin, line);
-
-	cout << "Lines:" << endl;
-
-	while (std::getline(fileo, word))
+	int i = 0;
+	while (i<100)
 	{
-        line.push_back(word);
-	}
+		cout << "insideWhile loop" << endl;
+	    if (!fin.good()) break;
+	    
+	    string lineFromFile;
+	    getline(fin, lineFromFile);
+	    cout << lineFromFile << endl;
+		i++;
+	} 
 
-	for (int i=0; i < line.size(); i++)
-	{
-  		std::cout<<line[i]<<std::endl;
-	}
+	cout << "Got Here" << endl;
+
 
 
 	fin.close();
