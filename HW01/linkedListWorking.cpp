@@ -6,19 +6,22 @@ using namespace std;
 
 struct NODE
 {
-    int data;
+    string data;
     NODE *next;
 };
+
 int main()
 {
-    ifstream myfile ("dataNumbers.csv");
+    ifstream myfile ("States.csv");
 
     NODE *start=NULL,*ptr,*temp;
-    int line;
-    if (myfile.is_open()){
-        while (getline(myfile,line))
-        {
+    string line;
 
+    if (myfile.is_open()){
+
+        while (getline(myfile,line))
+
+        {
             cout << line << endl;
             ptr = new NODE;
             ptr->data=line;
