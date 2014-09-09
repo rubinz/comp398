@@ -7,6 +7,11 @@
 #include <string>
 using namespace std;
 #include "StatesLinkList.h"
+int main (){
+  states statesList;
+
+  return 0;
+}
 
 //Constructor
 //PRE: n/a

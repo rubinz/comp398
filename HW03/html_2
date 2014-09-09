@@ -1,16 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+
+<head>
+	<title>About Zevi</title>
+</head>
 
 <BODY>
-	<body bgcolor="#669999"></body>
+	<!--<body bgcolor="#669999"></body>-->
 
+<!-- 
 <h1><font color="##000099">Zevi Rubin</font color></h1>
+
 
 <audio controls>
   <source src="soundcloud-145235394_Voices_KendroBeats_x_Rich_Beatz.mp3" type="audio/mpeg">
 
 </audio>
-
+ -->
 <p>A short story</p>
 
 	<MENU>
@@ -21,7 +27,7 @@
 
 	<p> sister on left, me in middle (with dope shirt), sister on right, brother in blue shirt </p>
 
-	<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-frc3/v/t1.0-9/1010475_10151817307372691_1234436283_n.jpg?oh=6eb6288ea14499dd4315fbb0c5d06798&oe=5479C661&__gda__=1416537611_ad0ab0318cd0eca153316d6adc576e85" alt="Just in case of derp" title="Derp"/>
+	<img src="http://tinyurl.com/oc47btj" alt="Derp"/>
 
 		<h2>
 			<LI>Raised as a wildling.
@@ -31,9 +37,9 @@
 
 		<p> little bro doing deadlift as a child </p>
 
-		<img src="http://i.imgur.com/0bcYipw.gif" alt="Just in case of derp" title="Derp"/>
+		<img src="http://i.imgur.com/0bcYipw.gif" alt="Derp"/>
 
-			<h3>
+			<!-- <h3>
 				<LI>Living good simple life.
 				<LI>get to travel lots as free wildling unboung by society.
 				<LI> >pics related.
@@ -78,8 +84,9 @@
   <source src="Me Gusta Song.mp3" type="audio/mpeg">
 
 </audio>
-						
+						 -->
 
 					
 
 </BODY>
+</html>

@@ -13,7 +13,7 @@ class states
 public:
     states(); // constructor
     
-    void displayStates();
+    void displayStates(string state, string abv);
 
 
 private:
