@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head><title>Wheaton Weather</title>
+
+</head>
+
+
+<!-- Header -->
+<body>
+
+<!-- START: TOP NAVIGATION -->
+<table align="center" width="760" class="header" border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+	<td height="25" class="NavLeft">
+
+<a href="/user/wheatonchem/index.php?view=main&amp;headers=1">Login to submit your current conditions!</a> 
+<a href="/user/wheatonchem/index.php?view=summary&amp;headers=1">Historic Data Browsing</a> 
+<a href="/user/wheatonchem/index.php?view=main&amp;headers=0">Wheaton Weather Livestream</a> 
+
+
+	</td>
+</tr>
+</table>
+<!-- END: TOP NAVIGATION -->
+
+
+<!-- START: PAGE CONTENT -->
+
+
+<table align="center" width="760" class="content" border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+	<td valign="top" align="center">
+
+		<table align="left" width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
+		<tr>
+			<td align="left" valign="top">
+
+	<!-- START: MAIN WEATHER DISPLAY -->
+	<table width="760" cellpadding="0" cellspacing="0" border="0" class="glamor_table" summary="">
+	
+	<tr>
+		<td class="glamor_temp" rowspan="2" style="padding-left: 40px;"><div style="position: relative; text-align: center; width: 200px;"><span style="position: relative;"><span class="shadowTextBlack">Current Temp: <span class="degrees">&deg;</span></span><span class="shadowTextWhite">84<span class="degrees">&deg;</span></span></span></div></td>
+		<td class="glamor_datatemp" nowrap style="padding-top: 20px;"><div style="position: relative; text-align: left;"><span style="position: relative;"><span class="shadowTextBlack">HIGH&nbsp;85<span class="degrees">&deg;</span>F</span><span class="shadowTextWhite">HIGH&nbsp;85<span class="degrees">&deg;</span>F</span></span></div></td>
+		<td class="glamor_detailtemp" nowrap style="padding-top: 20px;">at&nbsp;14:56</td>
+	</tr>
+	<tr>
+		<td class="glamor_datatemp" nowrap ><div style="position: relative; text-align: left;"><span style="position: relative;"><span class="shadowTextBlack">LOW&nbsp;54<span class="degrees">&deg;</span>F</span><span class="shadowTextWhite">LOW&nbsp;54<span class="degrees">&deg;</span>F</span></span></div></td>
+		<td class="glamor_detailtemp" nowrap>at&nbsp;06:25</td>
+	</tr>
+	<tr>
+		<td class="glamor_variable" style="padding-left: 40px;">Wind</td>
+		<td class="glamor_datatemp" nowrap><div style="position: relative; text-align: left;"><span style="position: relative;"><span class="shadowTextBlack">WSW&nbsp;5<span class="threequarter">&nbsp;Mph</span></span><span class="shadowTextWhite">WSW&nbsp;5<span class="threequarter">&nbsp;Mph</span></span></span></div></td>
+		<td class="glamor_detailtemp" nowrap>High Gust&nbsp;14<span class="threequarter">&nbsp;Mph</span>&nbsp;at&nbsp;14:28</td>
+	</tr>
+	<tr>
+		<td class="glamor_variable" style="padding-left: 40px;">Humidity</td>
+		<td class="glamor_datatemp" nowrap><div style="position: relative; text-align: left;"><span style="position: relative;"><span class="shadowTextBlack">49<span class="threequarter">%</span></span><span class="shadowTextWhite">49<span class="threequarter">%</span></span></span></div></td>
+		<td class="glamor_detailtemp" nowrap>Feels Like&nbsp;85<span class="degrees">&deg;</span>F</td>
+	</tr>
+	<tr>
+		<td class="glamor_variable" style="padding-left: 40px;">Rain</td>
+		<td class="glamor_datatemp" nowrap><div style="position: relative; text-align: left;"><span style="position: relative;"><span class="shadowTextBlack">0.00"</span><span class="shadowTextWhite">0.00"</span></span></div></td>
+		<td class="glamor_detailtemp" nowrap>Seasonal Total&nbsp;5.56"</td>
+	</tr>
+	<tr>
+		<td class="glamor_variable" style="padding-left: 40px;">Barometer</td>
+		<td class="glamor_datatemp" nowrap><div style="position: relative; text-align: left;"><span style="position: relative;"><span class="shadowTextBlack">30.14"</span><span class="shadowTextWhite">30.14"</span></span></div></td>
+		<td class="glamor_detailtemp" nowrap>Falling Slowly</td>
+	</tr>
+	
+	</table>
+	<!-- END: MAIN WEATHER DISPLAY -->
+
+
+	<br>
+
+	<head>
+	  <meta charset="utf-8">
+	  <title>jQuery UI Datepicker - Display month &amp; year menus</title>
+	  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+	  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	  <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+	  <link rel="stylesheet" href="/resources/demos/style.css">
+	  <script>
+	  $(function() {
+	    $( "#datepicker" ).datepicker({
+	      changeMonth: true,
+	      changeYear: true
+	    });
+	  });
+	  </script>
+	</head>
+
+	<!-- START: DISPLAY SELECTION -->
+	<table width="760" cellpadding="0" cellspacing="0" border="0" summary="">
+	<tr>
+		<td align="left" valign="top" width="50%">
+
+	<form name="frmUnits" method="post" action="/user/wheatonchem/index.php">
+	Select Date for Historic Weather Data:
+	<select name="selUnits" class="device" onChange="JavaScript:changeUnits();">
+<option value="0" SELECTED>Jan 1, 1992</option>
+<option value="1">OVER 9000!!!!</option>
+<option value="2">215 AD</option>
+
+
+	</select>
+	</form>
+
+<form action="demo_form.asp" autocomplete="on">
+  First name:<input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  E-mail: <input type="email" name="email" autocomplete="off"><br>
+  <input type="submit">
+</form>
+
+
+	<svg version="1.1"
+		baseProfile="full"
+		width="500" height="300"
+		xmlns="http://www.w3.org/2000/svg">
+
+		<rect width="100%" height="100%" fill="orange" />
+
+		<circle cx="250" cy="150" r="140" fill="purple" />
+
+		<text x="250" y="140" font-size="60" text-anchor="middle" fill="#CC2233">wheaton</text>
+
+		<text x="250" y="185" font-size="60" text-anchor="middle" fill="cyan">weather</text>
+
+		<polygon points="50 160, 55 180, 70 180, 60 190, 65 205, 50 195, 35 205, 40 190, 30 180, 45 180"/>
+
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+  
+    <pattern id="Pattern" x="0" y="0" width=".25" height=".25">
+      <rect x="0" y="0" width="50" height="50" fill="skyblue"/>
+      <!-- <rect x="0" y="0" width="25" height="25" fill="url(#Gradient2)"/> -->
+      <circle cx="25" cy="25" r="20" fill="url(#Gradient1)" fill-opacity="0.5"/>
+		<!-- <polygon points="50 160, 55 180, 70 180, 60 190, 65 205, 50 195, 35 205, 40 190, 30 180, 45 180"/> -->
+
+    </pattern>
+
+  </defs>
+
+  <rect fill="url(#Pattern)" stroke="black" x="150" y="150" width="200" height="200"/>
+</svg>
+
+
+
+
+
+
+		</td>
+		<td align="right" valign="top" width="50%">&nbsp;</td>
+	</tr>
+	</table>
+	<!-- END: DISPLAY SELECTION -->
+
+			</td>
+		</tr>
+		</table>
+
+	</td>
+</tr>
+</table>
+<br>
+
+<!-- END: PAGE CONTENT -->
+
+
+<!-- START: FOOTER -->
+<div class="Footer">
+	
+</div>
+<!-- END: FOOTER -->
+
+<br><br><br>
+
+<!-- START: Google Analytics -->
+
+<!-- END: Google Analytics -->
+
+</div><!-- mainContainer -->
+</div><!-- outerContainer -->
+
+</body>
+</html>
+
