@@ -1,0 +1,3 @@
+Zevi Rubin
+
+The data used in my .html file thus far has been manually scraped from the course schedule. 
