@@ -1,8 +1,40 @@
 
-{ "type": "LineString",
-  "coordinates": [ [-71.185903, 41.966700], [-71.209099, 41.980952], [-71.214246, 42.018994], [-71.226069, 42.018244] ]
+{ 
+  "type": "LineString",
+    "coordinates": [ 
+      [-71.185903, 41.966700], [-71.209099, 41.980952], [-71.214246, 42.018994], [-71.226069, 42.018244] 
+      ]
 }
 
 
 
      
+{
+  "type": "Feature",
+  "geometry": {
+  "type": "Point",
+  "coordinates": 
+  [-71.186407, 41.967465]
+  },
+
+  "properties": {
+  
+  "The SEM", "intelligence venue"
+  }
+},
+
+{
+  "type": "Feature",
+  "geometry": {
+  "type": "Point",
+  "coordinates": 
+  [-71.233675, 42.037299]
+  },
+
+  "properties": {
+  
+  "hobby shop" : "rcHover",
+  "nice shop" : "not nice people"
+  }
+}
+
